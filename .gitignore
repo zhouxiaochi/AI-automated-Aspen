@@ -4,3 +4,5 @@
 configs/mcp_config.json
 *.pyc
 .env
+.langgraph_api/ 
+/data
