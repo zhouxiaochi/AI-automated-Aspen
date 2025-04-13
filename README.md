@@ -3,7 +3,9 @@ This project aims to integrate Aspen series software with LLMs and MCP tools
 
 ## Requirements
 
-- Local docker-based MCP tools (refer to https://github.com/modelcontextprotocol/servers/tree/main).See docs in Github and Filesystem servers to set up docker-based MCPs
+- Local docker-based MCP tools (refer to https://github.com/modelcontextprotocol/servers/tree/main).
+
+See docs in Github and Filesystem servers to set up docker-based MCPs
 
 - GitHub API key: see https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
