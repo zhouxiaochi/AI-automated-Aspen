@@ -6,3 +6,9 @@ configs/mcp_config.json
 .env
 .langgraph_api/ 
 /data
+*.log
+*.apw
+*.bkp
+*.def
+*.csv
+*.txt
