@@ -20,6 +20,15 @@ print(dir(tbl))
 
 
 print("tbl elements setlabel content")
+# Print out all callable functions/methods for tbl
+print("tbl functions/methods:")
+for attr in dir(tbl):
+    try:
+        if callable(getattr(tbl, attr)):
+            print(attr)
+    except Exception:
+        pass
+
 print(dir(tbl.SetLabel))
 aspen.Tree.FindNode(r"\Data\Properties\Specifications\Input\GOPSETNAME").Value="WILSON"
 
@@ -30,6 +39,6 @@ print('RowCount',tbl.RowCount)
 #    tbl.InsertRow(0)
 print('RowCount',tbl.RowCount)
 
-tbl.SetLabel(0,0,False,"H2O")
+tbl.SetLabel(0,0,False,"Water")
 tbl.SetLabel(0,1,False,"CH4")
 tbl.SetLabel(0,2,False,"4-HYDROXYACETOPHENONE")

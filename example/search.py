@@ -163,7 +163,7 @@ def main():
     set_property_method(aspen, "WILSON")
 
     # —— 示例：按别名/分子式/CAS 批量添加 —— #
-    to_add = ["Water", "Methane", "7732-18-5", "CH4", "4-HYDROXYACETOPHENONE"]
+    to_add = ["Water", "Methane", "7732-18-5", "APHA4HYD","C10H16N2O8" , "CH4", "4-HYDROXYACETOPHENONE", "C4H10O-5", "C10H16O4-D1"]
 
     tbl = _get_comp_table(aspen)
     print("RowCount (before):", _row_count(tbl))
